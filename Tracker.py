@@ -6,11 +6,8 @@ print('Started')
 startTime=time.time()
 try:
     while True:
-       # input()
         totalTime=round(time.time()-startTime,2)
         tt=totalTime/60
-      #  print('totaltime: %s', totalTime)
-       # lastTime = time.time() # reset the last lap time
 except KeyboardInterrupt:
     # Handle the Ctrl-c exception to keep its error message from displaying.
     print('\nDone.')
